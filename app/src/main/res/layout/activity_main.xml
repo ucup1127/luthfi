@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Navbar -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="16dp"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_weight="1"
+                android:text="Sistem Informasi"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="end"
+                android:src="@android:drawable/ic_menu_manage" />
+        </LinearLayout>
+
+        <!-- Selamat Datang -->
+        <TextView
+            android:text="Selamat Datang"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Menu Jadwal dan SPP -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_marginBottom="8dp">
+
+            <LinearLayout
+                android:id="@+id/menuJadwal"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="#E0F7FA"
+                android:gravity="center"
+                android:padding="12dp"
+                android:layout_width="0dp"
+                android:layout_height="120dp">
+                <ImageView
+                    android:src="@android:drawable/ic_menu_agenda"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:text="Jadwal"
+                    android:textSize="16sp"
+                    android:layout_marginTop="8dp"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/menuSpp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="#FFF3E0"
+                android:gravity="center"
+                android:padding="12dp"
+                android:layout_width="0dp"
+                android:layout_height="120dp">
+                <ImageView
+                    android:src="@android:drawable/ic_menu_info_details"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:text="SPP"
+                    android:textSize="16sp"
+                    android:layout_marginTop="8dp"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Menu Evaluasi dan Event -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:id="@+id/menuEvaluasi"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="#E8F5E9"
+                android:gravity="center"
+                android:padding="12dp"
+                android:layout_width="0dp"
+                android:layout_height="120dp">
+                <ImageView
+                    android:src="@android:drawable/ic_menu_edit"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:text="Evaluasi"
+                    android:textSize="16sp"
+                    android:layout_marginTop="8dp"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/menuEvent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="#FCE4EC"
+                android:gravity="center"
+                android:padding="12dp"
+                android:layout_width="0dp"
+                android:layout_height="120dp">
+                <ImageView
+                    android:src="@android:drawable/ic_menu_my_calendar"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:text="Event"
+                    android:textSize="16sp"
+                    android:layout_marginTop="8dp"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Informasi Siswa -->
+        <TextView
+            android:text="Informasi Siswa"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Nama: Budi\nKelas: Tari Dasar\nStatus: Aktif"
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>
