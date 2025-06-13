@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.luthfi.sanggar.app-mergeDebugResources-30:\\layout\\activity_jadwal.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.luthfi.sanggar.app-main-33:\\layout\\activity_jadwal.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.luthfi.sanggar.app-mergeDebugResources-30:\\layout\\avtivity_evaluasi.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.luthfi.sanggar.app-main-33:\\layout\\avtivity_evaluasi.xml"
+    },
+    {
+        "merged": "com.luthfi.sanggar.app-mergeDebugResources-30:/layout/activity_evaluasi.xml",
+        "source": "com.luthfi.sanggar.app-main-33:/layout/activity_evaluasi.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.luthfi.sanggar.app-mergeDebugResources-30:\\layout\\activity_spp.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.luthfi.sanggar.app-main-33:\\layout\\activity_spp.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.luthfi.sanggar.app-mergeDebugResources-30:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.luthfi.sanggar.app-main-33:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.luthfi.sanggar.app-mergeDebugResources-30:\\layout\\activity_event.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.luthfi.sanggar.app-main-33:\\layout\\activity_event.xml"
+    }
+]
